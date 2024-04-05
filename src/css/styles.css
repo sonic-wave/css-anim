@@ -1,0 +1,40 @@
+.collapsible-container {
+    width: 400px;
+}
+
+.collapsible-btn {
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.collapsible-btn:hover {
+    cursor: pointer;
+    background-color: #0066CC;
+}
+
+.collapsible-content {
+    box-sizing: border-box;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.hidden {
+    transition: all 1s ease;
+    visibility: hidden;
+    overflow: hidden;
+    opacity: 0;
+    height: 0;
+}
+
+.show {
+    visibility: visible;
+    overflow: none;
+    opacity: 1;
+    display: block;
+    height: auto;
+}
